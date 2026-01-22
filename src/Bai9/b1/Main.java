@@ -1,7 +1,14 @@
 package Bai9.b1;
+import java.util.Scanner;
 
 public class Main {
+    private static final Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
+        b1();
+    }
+
+    public static void b1() {
         Developer dev = new Developer(
                 "D01",
                 "An",
@@ -25,4 +32,6 @@ public class Main {
         System.out.println(dev);
         System.out.println(tester);
     }
+
 }
+
